@@ -1,13 +1,14 @@
 import React from 'react';
 // import {Counter} from './components/Counter'
-import {Todos} from './components/Todos'
+import {Product} from './components/Product'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
      <h1>Hello</h1>
-     <Todos/>
+    <Product/>
+     {/* <Todos/> */}
      {/* <Counter init={0}>
        <button>add1</button>
      </Counter> */}
