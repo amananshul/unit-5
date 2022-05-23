@@ -1,89 +1,65 @@
 {
-  "todos": [
+  "laptop": [
     {
-      "id": "ba18232f-d87f-4e68-ad65-2efee5f69131",
-      "title": "Man Kirby",
-      "status": true
+      "model": "hp",
+      "year": "1996",
+      "operating": "widowasa",
+      "height": "15",
+      "weight": "19",
+      "id": 1
     },
     {
-      "id": "5940bba7-a00c-402e-a4e3-38bf349c7a36",
-      "title": "Sutton Vivers",
-      "status": false
+      "model": "hp",
+      "year": "1996",
+      "operating": "widowasa",
+      "height": "15",
+      "weight": "19",
+      "width": "195",
+      "id": 2
     },
     {
-      "id": "7e5aad77-c9cc-46e3-8c7f-70e42bde0ef6",
-      "title": "Karla Union",
-      "status": true
+      "model": "pk b dell inspiron",
+      "year": "1988",
+      "operating": "ios",
+      "height": "8",
+      "width": "15",
+      "id": 3
     },
     {
-      "id": "a767eaa2-d0b4-4986-90d1-1c7dbecd67a7",
-      "title": "Orville Caroli",
-      "status": true
+      "model": "aman",
+      "year": "1996",
+      "operating": "reacr",
+      "height": "6",
+      "width": "3",
+      "price": "1524",
+      "id": 4
     },
     {
-      "id": "3022722e-7e26-4d5b-b57f-13340c8f96e2",
-      "title": "Whittaker Physick",
-      "status": true
+      "model": "aman",
+      "year": "1996",
+      "operating": "das",
+      "height": "54",
+      "width": "16516",
+      "price": "156151",
+      "id": 5
     },
     {
-      "id": "c516a402-13a0-4840-a556-c287834e12fc",
-      "title": "Forster Claus",
-      "status": false
+      "model": "vaishu",
+      "year": "1999",
+      "operating": "damjjs",
+      "height": "54",
+      "width": "16516",
+      "price": "15615451",
+      "id": 6
     },
     {
-      "id": "be7b4697-d3aa-44e4-ba37-7e2a1b77ae75",
-      "title": "Cleon Kidson",
-      "status": false
-    },
-    {
-      "id": "b4b9f315-90f6-4ff5-8f05-70aea3893326",
-      "title": "Susana Dowzell",
-      "status": false
-    },
-    {
-      "id": "9e7d1c58-12c4-4d82-8f5b-090f832dbd38",
-      "title": "Terese Piens",
-      "status": true
-    },
-    {
-      "id": "1038ad0d-d217-4c6a-8bf1-302c9de33e4b",
-      "title": "Wynny Hrycek",
-      "status": true
-    },
-    {
-      "id": "dbdfb912-1357-4462-953f-30f878fc0028",
-      "title": "ram",
-      "status": false
-    },
-    {
-      "id": "428b2917-d9b2-4369-9220-4c922ac0f4bd",
-      "title": "ram aman",
-      "status": false
-    },
-    {
-      "id": "15d83817-b8c7-4a54-800b-dbb6629acd5c",
-      "title": "nath",
-      "status": false
-    },
-    {
-      "title": "anni",
-      "status": false,
-      "id": "SjzQ98D"
-    },
-    {
-      "title": "aman",
-      "status": false,
-      "id": "j3423dG"
-    },
-    {
-      "title": "anshuuu",
-      "status": false,
-      "id": "__2IgpL"
-    },
-    {
-      "title": "hi",
-      "status": false,
-      "id": "H0SIif2"
+      "model": "dell",
+      "year": "1518",
+      "operating": "widows",
+      "height": "12",
+      "width": "18",
+      "price": "000",
+      "id": 7
     }
   ]
 }
