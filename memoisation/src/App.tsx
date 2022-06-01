@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import Input from "./component/Input";
 
 
-const App = () => {
+export const App = () => {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
@@ -24,4 +24,3 @@ const App = () => {
     </div>
   );
 };
-export default App;
