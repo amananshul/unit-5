@@ -1,11 +1,4 @@
-// function sum(a,b,print){
-//     print(a+b)
-//     console.log("Sum done")
-// }
-// function print(data){
-//     console.log(data)
-//     // return data
-// }
+
 // sum(1,2,print)
 // console.log("hi")
 // const isEven = require("is-even")
