@@ -1,0 +1,16 @@
+POST/signUp:name,username,email.password,mobile,country
+retturn:id,token
+
+POST/login
+accepts:username,password
+POST/logout
+accepts:token,
+return:success
+
+GET/profile
+return name,username,email,password,mobile
+
+GET/profile/userid/feed
+
+
+GET/profile/userid/feed

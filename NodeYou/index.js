@@ -1,23 +1,29 @@
+const express= require('express');
+const app=express();
+const mongoose = require('mongoose')
+require('dotenv').config()
+const movieRoute=require('./routes/movies')
 
-const express = require('express')
-const reqFilter = require('./middleware')
-const app= express()
-const route = express.Router()
-route.use(reqFilter)
+const PORT=process.env.PORT||8080
+// app.get('/',(req,res)=>{
+//     res.send('hello')
+// })
+app.use(express.urlencoded({ extended:true}))
+app.use(express.json());
+app.use('/api/movies',movieRoute)
+
+mongoose.connect
+(process.env.MONGO_URL
+,{useNewUrlParser:true})
+.then(()=>{
+    console.log('connected to atlas')
+}).catch((error)=>{
+    console.log('error connecting to atlas',error)
+})
 
 
 
-app.get("/", (req,res) =>{
-    res.send(" welcome Hello WOrld")
+app.listen(PORT, ()=>{
+    console.log('listening on port',PORT)
 })
-app.get("/about", (req,res) =>{
-    res.send("Hello  about WOrld")
-})
-route.get("/user",(req,res) =>{
-    res.send("Hello Myuser")
-})
-route.get("/contact",(req,res) =>{
-    res.send("Hello contact")
-})
-app.use('/',route)
-app.listen(8080)
+
