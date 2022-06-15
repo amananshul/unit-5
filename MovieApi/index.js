@@ -23,7 +23,7 @@ const logger = winston.createLogger({
     ],
   });
 
-app.use('/api/movies',movieRoute)
+app.use('/api/geek',movieRoute)
 
 mongoose.connect
 (process.env.MONGO_URL
