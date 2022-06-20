@@ -1,11 +1,12 @@
+const {Router}=require('express')
 const express=require('express')
-const authRouter=require('./routes/auth')
+const newsRouter=require('./routes/news')
 const app=express();
 const connection = require('./storage/db')
 app.use(express.urlencoded({extended:true}))
 app.use(express.json())
 
-app.use('/auth', authRouter)
+app.use('/news', newsRouter)
 
 app.listen(8080,async()=>{
     await connection
